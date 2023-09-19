@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+}
+
+.index_home{
+    background-image: url("img/index_sky.jpg");
+}
+
+
+
+.srvcPg{
+    background-image: url("img/services_train.jpg");
+
+}
+
+
+
+.text_box{
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    opacity: 0.6;
+}
+.services_section{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.homepage_start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 3;
+
+}
+.homepage_start1{
+    text-align: center;
+    
+    img{
+        max-width: 100%;
+        }
+}
+
+
+.home_Pge{
+    display:flex;
+    align-items: center;
+    flex-grow: 2;
+    padding: 100px;
+}
+.hme_1{
+    flex:1;
+    text-align: center;
+    border-style: groove;
+    img{
+        max-width: 100%;
+    }
+    
+}
+.hme_2{
+    flex:1;
+    text-align: center;
+    border-style: groove;
+    img{
+        max-width:100%;
+    }
+
+}
+.hme_3{
+    
+    flex:1;
+    text-align: center;
+    border-style: groove;
+    img{
+        max-width:100%;
+    }
+ }
+
+
+
+header{
+    float:left;
+    padding-top: 5px;
+    
+}
+
+nav{
+    height: 100px;
+    background-image: url("img/nav_color.jpg");
+    text-align: center;
+    margin: 0;
+}
+
+nav ul{
+    
+list-style:none;
+margin: 0;
+padding: 0;
+line-height: 100px;
+text-transform: uppercase;
+}
+
+nav a{
+    font-size: 20px;
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+li a:hover{
+    background-color: #3d5f74;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+}
+   
+.tracking_box{
+        
+     justify-content:center;
+     align-items:center;
+     display:flex;
+}
+
+.tracking_info{
+    border-style: double;
+    color:black;
+     text-align:center;
+     font-size: 25px;
+}
+
+.tracking_title{
+
+     padding: 25px;
+    text-align:center;
+    font-size: 25px;
+}
+
+.contactPage{
+    background-image: url("img/contactUs.jpg");
+}
+
+.trackingPage{
+    background-image: url("img/trackingPic.jpg");
+}
+
+.text_tracking{
+    margin: auto;
+    width: 25%;
+    padding: 100px;
+}
+
+.contactBox {
+    height:400px;
+    padding-left:100px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+.contacts{
+    padding:10px;
+    justify-content: center;
+}
+
+.text_home{
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41, 0.8);
+    display:flex;
+    align-items:center;
+}
+
+
+
+
+.serviceMain{
+    display: flex;
+    align-items: center;
+    width:100%;
+    background-color: aquamarine;
+
+}
+
+.servicePage{
+display: flex;
+align-items: center;
+width:100%;
+flex-grow: 2;
+
+}
+
+.service_1{
+    flex:1;
+    background: #e8e7e7;
+    opacity: .8;
+    text-align: center;
+    
+
+}
+.service_2{
+    flex:1;
+    img{
+        max-width:100%;
+    }
+}
+.servicePage2{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+.service_3{
+    flex:1;
+    img{
+        max-width:100%;
+    }
+    }
+
+.service_4{
+    flex:1;
+    background: #e8e7e7;
+    opacity: .8;
+    text-align: center;
+
+}
+
+.servicePage3{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+    
+.service_5{
+    flex:1;
+    background: #e8e7e7;
+    opacity: .8;
+    text-align: center;
+
+    
+
+    }
+
+.service_6{
+    flex:1;
+    img{
+        max-width:100%;
+    }
+    
+
+}
+    
+    
